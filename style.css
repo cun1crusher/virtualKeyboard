@@ -1,0 +1,63 @@
+*  {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 5px;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+    box-shadow: 0 3px 0 1px black;
+}
+
+
+.shift {
+    width: 120px;
+    height: 50px;
+}
+
+.ctrl, .alt {
+    width: 80px;
+    height: 50px;
+}
+
+.space {
+    width: 277px;
+    height: 50px;
+}
+
+.shift, .ctrl, .alt, .space, .enter {
+    margin: 0 10px 5px 5px;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+    box-shadow: 0 3px 0 1px black;
+}
+
+.thirdRow {
+    position: relative;
+}
+
+
+.enter {
+    position: absolute;
+    left: 620px;
+    bottom: -96px;
+    width: 50px;
+    height: 120px;
+    margin-bottom: 100px;
+}
+
+.active {
+    background: orange;
+}
